@@ -50,11 +50,7 @@
     </article>
   </div>
     <div class="right"> 
-      <article class="about">
-        <h2>About</h2>
-        <p>I work as a head of application administration sector and I want to learn Front-End Development!
-          </p>
-      </article>
+
       <article class="education">
         <h2>Education</h2>
         <ul class="education_list" id="education">
@@ -71,42 +67,21 @@
             <li><img src="./images/point.svg" alt="point">English - A2</li>
           </ul>
         </article>
-        <article class="code">
-          <h2>Code example</h2> 
-          <pre>
-            <code>
-function submit(e) {
-  e.preventDefault();
-  for (let i = 0; i > inputRegister.length; i++) {
-  let currentInput = inputRegister[i];
-    if (currentInput.value === "") {
-      currentInput.classList.add("error");
-      const errorDiv = document.createElement("div");
-      errorDiv.textContent = "Введите данные";
-      let divInput = currentInput.parentElement;
-      errorDiv.classList.add("check");
-      divInput.appendChild(errorDiv);
-    } 
-  }
-}
-            </code>
-          </pre>     
-        </article>  
       <article class="experience" id="projects">
         <h2>My projects</h2>      
-        <a href="https://faizievavenera.github.io/tocha-site/#">
-        <div class="layout-2-columns">
-          <img src="./images/tocha.jpg" alt="tocha" class="project-img">
-          <div class="desc">
-            <p>Tocha site</p>
-            <div class="technologies">
-              <img src="./images/html.png" alt="html">
-              <img src="./images/css.png" alt="css">
-              <img src="./images/js.png" alt="js">
-            </div>
-          </div>  
-        </div>
-      </a>
+        <a href="https://faizievavenera.github.io/plants/">
+          <div class="layout-2-columns">
+            <img src="./images/plants.jpg" alt="plants" class="project-img">
+            <div class="desc">
+              <p>Plants</p>
+              <div class="technologies">
+                <img src="./images/html.png" alt="html">
+                <img src="./images/css.png" alt="css">
+                <img src="./images/js.png" alt="js">
+              </div>
+            </div>  
+          </div>
+        </a>
       <a href="https://rolling-scopes-school.github.io/faizievavenera-JSFE2022Q3/codejam/">
         <div class="layout-2-columns">
           <img src="./images/codejam.jpg" alt="codejam" class="project-img">
@@ -142,11 +117,7 @@ function submit(e) {
   </div>
 </a>
     <p>2022</p>
-    <a href="https://rs.school/js/">
-    <div class="link">
-      <img src="./images/rs_school_js.svg" alt="rsschool" class="rs-object">
-  </div>
-</a>
+    
   </footer>
   </body>
 </html>
